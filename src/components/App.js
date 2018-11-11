@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Profile from './Profile';
+
 class App extends Component {
   render() {
     return (
@@ -7,6 +9,8 @@ class App extends Component {
         <header>
           <h1>GitHub GraphQL Client (powered by Apollo)</h1>
         </header>
+
+        <Profile />
       </div>
     );
   }
